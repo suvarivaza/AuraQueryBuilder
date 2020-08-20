@@ -1,6 +1,6 @@
 <?php
 
-namespace Suvarivaza\QB;
+namespace Suvarivaza\AQB;
 
 use Aura\SqlQuery\QueryFactory;
 use PDO;
