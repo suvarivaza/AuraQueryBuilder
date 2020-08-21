@@ -6,12 +6,14 @@ use Aura\SqlQuery\QueryFactory;
 use PDO;
 use PDOException;
 
+
 class QueryBuilder
 {
 
     private $pdo;
     private $queryFactory;
     protected $prefix = '';
+
 
 
     /*
