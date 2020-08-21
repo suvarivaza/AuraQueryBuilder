@@ -12,7 +12,6 @@ class QueryBuilder
     private $pdo;
     private $queryFactory;
     protected $prefix = '';
-    protected $type = null;
 
     /*
      * Create connection in constructor
