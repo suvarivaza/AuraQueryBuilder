@@ -13,6 +13,7 @@ class QueryBuilder
     private $queryFactory;
     protected $prefix = '';
 
+
     /*
      * Create connection in constructor
      * Gets the argument array with database connection configuration
