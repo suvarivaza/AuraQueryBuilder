@@ -24,5 +24,4 @@ $db->delete('posts',  ['id' => 1]);
 EXISTS ('table', [where])
 $db->exists('posts', ['id', '=', 1]);
 
-
 ```
