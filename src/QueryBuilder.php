@@ -204,4 +204,9 @@ class QueryBuilder
         if (!in_array($operator, $operators)) die('Operator of this type is not supported!');
     }
 
+    public function getPdo(){
+        return $this->pdo;
+    }
+
+
 }
